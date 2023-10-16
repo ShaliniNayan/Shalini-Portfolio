@@ -288,7 +288,7 @@ section_text_p2 {
 
 .details-container {
   padding: 1.5rem;
-  flex: 1;
+  flex: 2;
   background: aquamarine;
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
@@ -306,3 +306,41 @@ section_text_p2 {
   width: 400px;
   margin: auto 0;
 }
+
+#experience {
+  position: relative;
+}
+
+.experience-sub-title {
+  color: black;
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-bottom: 2rem;
+}
+
+.experience-details-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.article-container {
+  display: flex;
+  text-align: initial;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 2.5rem;
+  justify-content: space-around;
+}
+
+article {
+  display: flex;
+  width: 10rem;
+  justify-content: space-around;
+  gap: 0.5rem;
+}
+
+article.icon {
+  cursor: default;
+}
+
