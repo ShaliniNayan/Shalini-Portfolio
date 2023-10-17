@@ -344,3 +344,27 @@ article.icon {
   cursor: default;
 }
 
+#projects {
+  position: relative;
+}
+
+.color-container {
+  border-color: rgb(163, 163, 163);
+  background: rgb(250, 250, 250);
+}
+
+.project-img {
+  border-radius: 1rem;
+  width: 90%;
+  height: 90%;
+}
+
+.project-title {
+  margin: 1rem;
+  color: black;
+}
+
+.project-btn {
+  color: rgb(16, 115, 202);
+  border-color: rgb(17, 17, 17);;
+}
